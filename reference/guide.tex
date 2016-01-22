@@ -1,0 +1,315 @@
+% this is a comment sign
+
+\documentclass{class} %Use to Specify Project at the begining of document
+
+Docunemt Class Options
+[10pt/11pt/12pt] %Font Size
+[letterpaper/a4paper] %Paper Size
+[twocolumn] %Use two columns
+[twoside] %Set margins for two-sided
+[landscape] %Landscape orientation. Must use dvips
+
+Packages: Use before \begin{document}. Usage: \usepackage{package}
+
+fullpage %Use 1 inch margins.
+anysize %Set margins: \marginsize{l}{r }{t}{b}.
+multicol %Use n columns: \begin{multicols}{n}.
+latexsym %Use L A TEX symbol font.
+graphicx %Show image: \includegraphics[width=x ]{file}.
+url %Insert URL: \url{http://. . . }.
+
+Meta Data
+\author{text} %Author of document.
+\title{text} %Title of document.
+\date{text}
+\maketitle
+
+Miscellaneous
+\pagestyle{empty}
+
+\begin{document} %Use to start contents
+\end{document} %Use to end the document
+
+Document structure
+\part{title}
+\subsubsection{title}
+\chapter{title}
+\paragraph{title}
+\section{title}
+\subparagraph{title}
+\subsection{title} %Section commands can be followed with an *, like
+\section*{title}, %to supress heading numbers.
+\setcounter{secnumdepth}{x} %supresses heading numbers of depth > x, where chapter has depth 0.
+
+Text environments
+\begin{comment} %Comment block (not printed).
+\begin{quote} %Indented quotation block.
+\begin{quotation} %Like quote with indented paragraphs.
+\begin{verse} %Quotation block for verse.
+
+Lists
+\begin{enumerate} %Numbered list
+\begin{itemize} %Bulleted list
+\begin{description} %Description list
+\item text %Add an item
+\item[x ] text %Use x instead of normal bullet or number. Required for descriptions
+
+References
+\label{marker} %Set a marker for cross-reference, often of the form \label{sec:item}.
+\ref{marker } %Give section/body number of marker.
+\pageref{marker } %Give page number of marker.
+\footnote{text} %Print footnote at bottom of page.
+
+Floating bodies
+\begin{table}[place] %Add numbered table.
+\begin{figure}[place] %Add numbered figure.
+\begin{equation}[place] %Add numbered equation.
+\caption{text} %Caption for the body. The place is a list valid placements for the body. t=top,h=here, b=bottom, p=separate page, !=place even if ugly. Captions and label markers should be within the environment.
+
+Text properties
+Font face
+%Command %Declaration %Effect
+\textrm{text} {\rmfamily text} %Roman family
+\textsf{text} {\sffamily text} %Sans serif family
+\texttt{text} {\ttfamily text} %Typewriter family
+\textmd{text} {\mdseries text} %Medium series
+\textbf{text} {\bfseries text} %Bold series
+\textup{text} {\upshape text} %Upright shape
+\textit{text} {\itshape text} %Italic shape
+\textsl{text} {\slshape text} %Slanted shape
+\textsc{text} {\scshape text} %Small Caps shape
+\emph{text} {\em text} %Emphasized
+\textnormal{text}{\normalfont text} %Document font
+\underline{text} %Underline
+The command (tttt) %form handles spacing better than the
+declaration (tttt) %form.
+
+Font size
+\tiny %tiny
+\scriptsize %scriptsize
+\footnotesize %footnotesize
+\small %small
+\normalsize %normalsize
+\large %large
+\Large %large
+\LARGE %extra lare
+\huge %huge
+\Huge %extra huge
+
+Verbatim Text
+\begin{verbatim} %Verbatim environment
+\begin{verbatim*} %Spaces are shown as
+\verb!text! %Text between the delimitin
+
+Miscellaneous
+\linespread{x} %changes the line spacing by the multiplier x
+
+Text-mode symbols
+List:& % \& \$ \% ... | # \_ \^{} \~{} ˆ  ̃ \ldots \textbar \# • \ § \textbullet \tex
+
+Line and page breaks
+\\ %Begin new line without new paragraph.
+\\* %Prohibit pagebreak after linebreak.
+\kill %Don’t print current line.
+\pagebreak %Start new page.
+\noindent %Do not indent current line.
+
+Miscellaneous
+\today
+$\sim$ %Prints ∼ instead of \~{}, which makes  ̃
+\@. %Indicate that the . ends a sentence when following an uppercase letter
+\hspace{l} %Horizontal space of length l (Ex: l = 20pt).
+\vspace{l} %Vertical space of length l.
+\rule{w}{h} %Line of width w and height h.
+
+Tabular environments
+tabbing environment
+\= %Set tab stop.
+\> %Go to tab stop.
+Tab stops can be set on “invisible” lines with \kill at the end
+of the line. Normally \\ is used to separate lines.
+
+tabular environment
+\begin{array}[pos]{cols}
+\begin{tabular}[pos]{cols}
+\begin{tabular*}{width}[pos]{cols}
+tabular column specification
+l %Left-justified column.
+c %Centered column.
+r %Right-justified column.
+p{width} %Same as \parbox[t]{width}.
+@{decl} %Insert decl instead of inter-column space.
+| %Inserts a vertical line between columns
+
+tabular elements
+\hline %Horizontal line between rows.
+\cline{x-y} %Horizontal line across columns x through y.
+\multicolumn{n}{cols}{text} %A cell that spans n columns, with cols column specification.
+
+Math mode
+%To use math mode, surround text with $ or \begin{equation}.
+x %Subscript
+^{x} %Superscript x
+\frac{x}{y} %x divided by y
+\sqrt[n]{x} %square root of x by n
+_{x}
+\sum_{k=1}^n
+\prod_{k=1}^n
+
+Math-mode symbols
+≤ \leq
+× \times
+◦ ^{\circ}
+∞ \infty
+⊃ \supset
+⊂ \subset
+∪ \cup
+a  ̇ \dot a
+α \alpha
+\epsilon
+θ \theta
+λ \lambda
+π \pi
+υ \upsilon
+ω \omega
+Λ \Lambda
+Υ \Upsilon
+≥
+÷
+◦
+¬
+∀
+∃
+∩
+a
+ˆ
+β
+ζ
+ι
+μ
+ρ
+φ
+Γ
+Ξ
+Φ
+\geq
+\div
+\circ
+\neg
+\forall
+\exists
+\cap
+\hat a
+\beta
+\zeta
+\iota
+\mu
+\rho
+\phi
+\Gamma
+\Xi
+\Phi
+= \neq
+± \pm
+\prime
+∧ \wedge
+∈ \in
+∈
+/ \notin
+| \mid
+a
+ ̄ \bar a
+γ \gamma
+η \eta
+κ \kappa
+ν \nu
+σ \sigma
+χ \chi
+∆ \Delta
+Π \Pi
+Ψ \Psi
+≈
+·
+···
+∨
+→
+⇒
+⇔
+a
+ ̃
+δ
+ε
+θ
+ξ
+τ
+ψ
+Θ
+Σ
+Ω
+\approx
+\cdot
+\cdots
+\vee
+\rightarrow
+\Rightarrow
+\Leftrightarrow
+\tilde a
+\delta
+\varepsilon
+\vartheta
+\xi
+\tau
+\psi
+\Theta
+\Sigma
+\Omega
+
+Citation types
+tabbing environment Full author list and year. (Watson and Crick 1953)
+\citeA{key} %Full author list. (Watson and Crick)
+\citeN{key} %Full author list and year. Watson and Crick(1953)
+\shortcite{key} %Abbreviated author list and year. ?
+\shortciteA{key} %Abbreviated author list. ?
+\shortciteN{key} %Abbreviated author list and year. ?
+\citeyear{key} %Cite year only. (1953)
+All the above have an NP variant without parentheses; Ex.
+\citeNP.
+
+BibTEX entry types
+@article %Journal or magazine article.
+@book %Book with publisher.
+@booklet %Book without publisher.
+@conference %Article in conference proceedings.
+@inbook %A part of a book and/or range of pages.
+@incollection %A part of book with its own title.
+@misc %If nothing else fits.
+@phdthesis %PhD. thesis.
+@proceedings %Proceedings of a conference.
+@techreport %Tech report, usually numbered in series.
+@unpublished %Unpublished.
+
+BibTEX fields
+address %Address of publisher. Not necessary for major publishers.
+author %Names of authors, of format ....
+booktitle %Title of book when part of it is cited.
+chapter %Chapter or section number.
+edition %Edition of a book.
+editor %Names of editors.
+institution %Sponsoring institution of tech. report.
+journal %Journal name.
+key %Used for cross ref. when no author.
+month %Month published. Use 3-letter abbreviation.
+note %Any additional information.
+number %Number of journal or magazine.
+organization %Organization that sponsors a conference.
+pages %Page range (2,6,9--12).
+publisher %Publisher’s name.
+school %Name of school (for thesis).
+series %Name of series of books.
+title %Title of work.
+type %Type of tech. report, ex. “Research Note”.
+volume %Volume of a journal or book.
+year %Year of publication.
+Not all fields need to be filled. See example below.
+
+
