@@ -1,0 +1,51 @@
+\contentsline {section}{\numberline {0.1}PLANNING}{4}
+\contentsline {subsection}{\numberline {0.1.1}DELIVERABLES}{4}
+\contentsline {section}{\numberline {0.2}CONVERSION CONTENT}{4}
+\contentsline {subsection}{\numberline {0.2.1}DELIVERABLES}{4}
+\contentsline {section}{\numberline {0.3}ADDITIONAL CONTENT}{5}
+\contentsline {subsection}{\numberline {0.3.1}DELIVERABLES}{5}
+\contentsline {section}{\numberline {0.4}SEARCH ENGINE OPTIMIZATION}{5}
+\contentsline {subsection}{\numberline {0.4.1}DELIVERABLES}{5}
+\contentsline {section}{\numberline {0.5}DESIGN}{6}
+\contentsline {subsection}{\numberline {0.5.1}DELIVERABLES}{6}
+\contentsline {section}{\numberline {0.6}MOBILE DESIGN}{6}
+\contentsline {subsection}{\numberline {0.6.1}DELIVERABLES}{7}
+\contentsline {section}{\numberline {0.7}WEBSITE}{7}
+\contentsline {subsection}{\numberline {0.7.1}DELIVERABLES}{8}
+\contentsline {section}{\numberline {0.8}EMAIL MARKETING}{8}
+\contentsline {subsection}{\numberline {0.8.1}DELIVERABLES}{8}
+\contentsline {section}{\numberline {0.9}SOCIAL MEDIA SETUP}{8}
+\contentsline {subsection}{\numberline {0.9.1}DELIVERABLES}{8}
+\contentsline {section}{\numberline {0.10}COMPLETION}{9}
+\contentsline {section}{\numberline {0.11}TRAINING}{9}
+\contentsline {subsection}{\numberline {0.11.1}DELIVERABLES}{9}
+\contentsline {section}{\numberline {0.12}ONGOING TRAFFIC GENERATION - OPTIONAL}{10}
+\contentsline {section}{\numberline {0.13}SEARCH ENGINE MARKETING}{10}
+\contentsline {subsection}{\numberline {0.13.1}DELIVERABLES}{10}
+\contentsline {section}{\numberline {0.14}SOCIAL MONITORING}{11}
+\contentsline {subsection}{\numberline {0.14.1}DELIVERABLES}{11}
+\contentsline {section}{\numberline {0.15}SOCIAL MEDIA TRAINING}{11}
+\contentsline {subsection}{\numberline {0.15.1}DELIVERABLES}{11}
+\contentsline {section}{\numberline {0.16}CONVERSION OPTIMIZATION - optional}{12}
+\contentsline {section}{\numberline {0.17}POST-LAUNCH ANALYSIS AND ITERATIONS}{12}
+\contentsline {subsection}{\numberline {0.17.1}DELIVERABLES}{12}
+\contentsline {section}{\numberline {0.18}PHOTOGRAPHY}{12}
+\contentsline {subsection}{\numberline {0.18.1}DELIVERABLES}{12}
+\contentsline {section}{\numberline {0.19}VIDEO}{13}
+\contentsline {subsection}{\numberline {0.19.1}DELIVERABLES}{13}
+\contentsline {subsection}{\numberline {0.19.2}DELIVERABLES}{13}
+\contentsline {subsection}{\numberline {0.19.3}DELIVERABLES}{14}
+\contentsline {subsection}{\numberline {0.19.4}DELIVERABLES}{14}
+\contentsline {subsection}{\numberline {0.19.5}DELIVERABLES}{15}
+\contentsline {section}{\numberline {0.20}ADDITIONAL CONTENT}{16}
+\contentsline {section}{\numberline {0.21}ADDITIONAL BILLABLE}{17}
+\contentsline {section}{\numberline {0.22}METHODOLOGY}{17}
+\contentsline {subsection}{\numberline {0.22.1}How it Works}{17}
+\contentsline {section}{\numberline {0.23}Communicating Effectively}{18}
+\contentsline {section}{\numberline {0.24}Hosting}{19}
+\contentsline {section}{\numberline {0.25}HELPDESK AND EDUCATION}{19}
+\contentsline {section}{\numberline {0.26}INVOICES}{20}
+\contentsline {section}{\numberline {0.27}PAYMENT}{20}
+\contentsline {section}{\numberline {0.28}TERMS AND CONDITIONS}{20}
+\contentsline {section}{\numberline {0.29}ENTIRE AGREEMENT}{20}
+\contentsline {section}{\numberline {0.30}SIGNATURE}{21}
