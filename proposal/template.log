@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.8)  22 JAN 2016 16:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.8)  23 JAN 2016 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input proposal.tex
-(./proposal.tex (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+**\input template.tex
+(./template.tex (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -55,7 +55,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen104
 )
 
-./proposal.tex:5: LaTeX Error: Missing \begin{document}.
+./template.tex:5: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -67,10 +67,10 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 <images/logo.png, id=1, 321.2pt x 321.2pt>
-./proposal.tex:6: Illegal unit of measure (pt inserted).
+./template.tex:6: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.6 \includegraphics[width=220]{images/logo.png}
+l.6 \includegraphics[width=180]{images/logo.png}
                                                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -79,10 +79,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./proposal.tex:6: Illegal unit of measure (pt inserted).
+./template.tex:6: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.6 \includegraphics[width=220]{images/logo.png}
+l.6 \includegraphics[width=180]{images/logo.png}
                                                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -94,10 +94,10 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 6.
-(pdftex.def)             Requested size: 220.0pt x 220.00597pt.
+(pdftex.def)             Requested size: 180.0pt x 180.0031pt.
 
 
-./proposal.tex:13: LaTeX Error: Missing \begin{document}.
+./template.tex:13: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -116,7 +116,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>]
 
-./proposal.tex:14: LaTeX Error: Missing \begin{document}.
+./template.tex:14: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -127,7 +127,7 @@ l.14 \tableofcontents
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(./proposal.toc
+(./template.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -136,24 +136,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
  [1
 
-]
-./proposal.toc:49: Misplaced alignment tab character &.
-<argument> \numberline {0.28}TERMS &
-                                     CONDITIONS
-l.49 ...{\numberline {0.28}TERMS & CONDITIONS}{20}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
+])
 \tf@toc=\write3
-\openout3 = `proposal.toc'.
+\openout3 = `template.toc'.
 
- [2] (./proposal.aux
+ [2] (./template.aux
 
 LaTeX Warning: Label `table:nonlin' multiply defined.
 
@@ -173,7 +160,7 @@ LaTeX Warning: Label `table:nonlin' multiply defined.
 LaTeX Warning: Label `table:nonlin' multiply defined.
 
 )
-\openout1 = `proposal.aux'.
+\openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -248,7 +235,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-./proposal.tex:18: Undefined control sequence.
+./template.tex:18: Undefined control sequence.
 l.18 \subtitle
               {PROPOSAL FOR WEBSITE DESIGN, HOSTING, IT SUPPORT, SECURITY, T...
 The control sequence at the end of the top line
@@ -258,7 +245,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./proposal.tex:19: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:19: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -271,7 +258,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:20: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:20: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -285,7 +272,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:21: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:21: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -306,7 +293,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
 
-./proposal.tex:33: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:33: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -319,7 +306,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:34: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:34: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -334,7 +321,7 @@ If that doesn't work, type  X <return>  to quit.
 [3
 
 ]
-./proposal.tex:37: Undefined control sequence.
+./template.tex:37: Undefined control sequence.
 l.37 \subtitle
               {PROJECT SCOPE OF WORK AND DELIVERABLES}
 The control sequence at the end of the top line
@@ -344,7 +331,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./proposal.tex:39: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:39: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -358,7 +345,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:40: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:40: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -372,7 +359,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:53: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:53: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -386,7 +373,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:62: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:62: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -403,7 +390,7 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./proposal.tex:72: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:72: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -418,7 +405,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [5]
 
-./proposal.tex:88: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:88: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -432,7 +419,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:89: LaTeX Error: Lonely \item--perhaps a missing list environmen
+./template.tex:89: LaTeX Error: Lonely \item--perhaps a missing list environmen
 t.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -446,7 +433,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:100: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:100: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -467,7 +454,7 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 [6]
 
-./proposal.tex:111: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:111: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -481,7 +468,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:112: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:112: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -495,7 +482,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:114: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:114: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -509,7 +496,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:115: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:115: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -523,7 +510,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:116: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:116: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -538,7 +525,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [7]
 
-./proposal.tex:117: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:117: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -551,7 +538,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:126: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:126: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -565,7 +552,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:133: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:133: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -580,7 +567,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [8]
 
-./proposal.tex:149: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:149: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -594,7 +581,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:150: LaTeX Error: \begin{document} ended by \end{itemize}.
+./template.tex:150: LaTeX Error: \begin{document} ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -606,7 +593,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./proposal.tex:150: Extra \endgroup.
+./template.tex:150: Extra \endgroup.
 <recently read> \endgroup 
                           
 l.150 \end{itemize}
@@ -614,7 +601,7 @@ l.150 \end{itemize}
 Things are pretty mixed up, but I think the worst is over.
 
 
-./proposal.tex:153: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:153: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -628,7 +615,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:161: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:161: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -642,7 +629,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:166: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:166: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -657,7 +644,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [9]
 
-./proposal.tex:185: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:185: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -672,7 +659,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [10]
 
-./proposal.tex:196: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:196: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -686,7 +673,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:209: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:209: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -701,7 +688,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [11]
 
-./proposal.tex:216: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:216: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -714,7 +701,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:219: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:219: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -728,7 +715,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:227: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:227: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -743,7 +730,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [12]
 
-./proposal.tex:228: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:228: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -756,7 +743,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:240: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:240: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -770,7 +757,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [13]
 
-./proposal.tex:254: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:254: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -783,7 +770,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:271: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:271: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -797,7 +784,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [14]
 
-./proposal.tex:287: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:287: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -810,7 +797,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:305: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:305: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -825,7 +812,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [15]
 
-./proposal.tex:306: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:306: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -838,7 +825,7 @@ l.306 \item O
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./proposal.tex:329: Extra alignment tab has been changed to \cr.
+./template.tex:329: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.329 ...Quality Assurance, & Warranty & 4 weeks &
@@ -847,7 +834,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./proposal.tex:351: Extra alignment tab has been changed to \cr.
+./template.tex:351: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.351 Post-launch analysis & improvements &
@@ -862,7 +849,7 @@ Overfull \hbox (67.84969pt too wide) in paragraph at lines 343--361
  []
 
 
-./proposal.tex:364: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:364: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -877,7 +864,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [16]
 
-./proposal.tex:365: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:365: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -891,7 +878,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:367: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:367: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -905,7 +892,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:368: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:368: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -930,7 +917,7 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
 
-./proposal.tex:393: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:393: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -949,7 +936,7 @@ Overfull \hbox (249.2381pt too wide) in paragraph at lines 415--425
  []
 
 
-./proposal.tex:428: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:428: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -967,7 +954,7 @@ Overfull \hbox (157.49738pt too wide) in paragraph at lines 433--443
  [][] 
  []
 
-./proposal.tex:455: Extra alignment tab has been changed to \cr.
+./template.tex:455: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.455 http://hosttor.com &
@@ -981,7 +968,7 @@ Overfull \hbox (88.53836pt too wide) in paragraph at lines 448--459
  [][] 
  []
 
-./proposal.tex:462: Undefined control sequence.
+./template.tex:462: Undefined control sequence.
 l.462 \itemPayment
                    is due upon receipt of invoice. You may not withhold any ...
 The control sequence at the end of the top line
@@ -992,7 +979,7 @@ and I'll forget about whatever was undefined.
 
 [19]
 
-./proposal.tex:464: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:464: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1006,7 +993,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:481: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:481: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1020,7 +1007,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./proposal.tex:484: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:484: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1035,7 +1022,7 @@ If that doesn't work, type  X <return>  to quit.
 
 [20]
 
-./proposal.tex:487: LaTeX Error: Lonely \item--perhaps a missing list environme
+./template.tex:487: LaTeX Error: Lonely \item--perhaps a missing list environme
 nt.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1048,7 +1035,7 @@ l.487 \item B
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[21] (./proposal.aux)
+[21] (./template.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1065,7 +1052,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on proposal.pdf (22 pages, 120438 bytes).
+Output written on template.pdf (22 pages, 120437 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
